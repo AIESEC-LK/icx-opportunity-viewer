@@ -22,7 +22,7 @@ export const authLink = setContext(async (_, { headers }) => {
 			"accept-language": "en-US,en;q=0.9",
 		},
 	};
-	let token = "";
+	let token = "7c092555c67d12df94cdbfbc59edab818dd20a6e1154a1aeeb01340e4825edc7";
 	// try {
 	//     const data = await axios(config as any)
 	//     token = data?.data?.environment?.publicToken
@@ -37,7 +37,7 @@ export const authLink = setContext(async (_, { headers }) => {
 	return {
 		headers: {
 			...headers,
-			Authorization: token ? token : "",
+			Authorization: token ? token : "7c092555c67d12df94cdbfbc59edab818dd20a6e1154a1aeeb01340e4825edc7",
 		},
 	};
 });

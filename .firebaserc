@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "opportunity-viewer"
-  }
+    "default": "icx-opps",
+    "staging": "icx-opps"
+  },
+  "targets": {},
+  "etags": {}
 }
