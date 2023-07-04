@@ -23,4 +23,4 @@
 - Units Tests were not implemented.
 - Filter mechanisms for other filters were not included as staging API do not have consistent data (Validating null values for a large amount of data is a bit of a pain)
 
-**Developed by Vikum Wijekoon, LCVP for Digital Experience, AIESEC in University of Sri Jayewardenepura**
+
