@@ -116,10 +116,10 @@ export default function OppCard({
 								<Badge
 									style={{
 										border:
-											dateOpened.getTime() + 31_556_952_000 <
-											parse(val.start_date as string, "yyyy-L-d", new Date()).getTime()
-												? "3px solid #6c757d"
-												: "1px solid #6c757d",
+											dateOpened.getTime() + 31_556_952_000 >
+												parse(val.start_date as string, "yyyy-L-d", new Date()).getTime() || program !== "GV"
+												? "1px solid #6c757d"
+												: "3px solid #6c757d",
 									}}
 									key={`badge ${index}`}
 									variant="light"
