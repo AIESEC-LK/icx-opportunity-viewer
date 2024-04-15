@@ -36,6 +36,7 @@ export const getAllOpportunities = gql`
 			start_date
 			end_date
 		}
+		date_opened
 		sdg_info {
 			sdg_target {
 				parent {

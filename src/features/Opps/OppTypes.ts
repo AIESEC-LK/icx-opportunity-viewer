@@ -26,6 +26,7 @@ export const dataSchema = Joi.array().items(
 					name: "Default Company",
 				},
 			}),
+		date_opened: Joi.date(),
 		cover_photo: Joi.object({
 			url: Joi.string()
 				.uri()
@@ -108,6 +109,7 @@ export type dataSchemaObj = {
 	cover_photo: {
 		url: string;
 	};
+	date_opened: Date;
 	programme: {
 		short_name_display: string;
 	};

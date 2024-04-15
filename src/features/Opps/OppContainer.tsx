@@ -43,6 +43,7 @@ export default function OppContainer({
 									key={item.id}
 									durationType={item.opportunity_duration_type.duration_type}
 									location={item.location}
+									dateOpened={item.date_opened}
 									coverPhoto={item.cover_photo.url}
 									program={item.programme.short_name_display}
 									companyName={item.branch.company.name}></OppCard>
